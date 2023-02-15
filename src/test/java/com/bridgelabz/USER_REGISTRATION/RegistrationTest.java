@@ -18,6 +18,6 @@ public class RegistrationTest {
 	    void given_first_name_should_returnTrue() {
 	        UserValidation validation = new UserValidation();
 	        Boolean result = validation.checkFirstName("Aditya");
-	        Assertions.assertEquals(result, true);
+	         Assertions.assertEquals(result, true);
 	    }
 	}
