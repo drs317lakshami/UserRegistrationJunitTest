@@ -15,25 +15,25 @@ public class RegistrationTest {
     @Test
     void given_first_name_should_returnTrue() {
         UserValidation validation = new UserValidation();
-        Boolean result = validation.checkFirstName("Usha");
+        Boolean result = validation.checkFirstName("Devraj");
         Assertions.assertEquals(result, true);
     }
     @Test
     void given_last_name_should_returnTrue() {
         UserValidation validation = new UserValidation();
-        Boolean result1 = validation.checkLastName("Ahirwar");
+        Boolean result1 = validation.checkLastName("Sharma");
         Assertions.assertEquals(result1, true);
     }
     @Test
     void given_email_id_should_returnTrue() {
         UserValidation validation = new UserValidation();
-        Boolean result2 = validation.checkEmailId("UshaAhirwar@gmail.com");
+        Boolean result2 = validation.checkEmailId("Devrajkumarsharma@gmail.com");
         Assertions.assertEquals(result2, true);
     }
     @Test
     void given_phoneNumber_should_returnTrue() {
         UserValidation validation = new UserValidation();
-        Boolean result3 = validation.phoneNumber("91 9919819801");
+        Boolean result3 = validation.phoneNumber("91 7778858588");
         Assertions.assertEquals(result3, true);
     }
 }
